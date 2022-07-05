@@ -8,7 +8,7 @@ using namespace std;
         long long int sqr;
         cin>>n;
         if(n<=pow(10,9)){    
-            for(int i=1;i<=n;i++){
+            for(long long int i=1;i<=n;i++){
                 sqr=pow(i,2);
                 if(sqr<=n)
                     cout<<sqr<<" ";
