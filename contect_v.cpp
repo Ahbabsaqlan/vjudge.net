@@ -7,10 +7,10 @@ using namespace std;
         long long int n;
         long long int sqr;
         cin>>n;
-        if(n>0 && n<=pow(10,9)){    
+        if(n<=pow(10,9)){    
             for(int i=1;i<=n;i++){
                 sqr=pow(i,2);
-                if(sqr>0 && sqr<=n)
+                if(sqr<=n)
                     cout<<sqr<<" ";
             }
         }
