@@ -15,12 +15,14 @@ int main(){
                 B=b[i];
                 C=c[i];
                 if(A>B && B>C || B<C && B>A){
-                    cout<<"case "<<i+1<<": "<<B<<endl;
+                    cout<<"Case "<<i+1<<": "<<B<<endl;
                 }else if(B>A && A>C || A<C && A>B){
-                    cout<<"case "<<i+1<<": "<<A<<endl;
+                    cout<<"Case "<<i+1<<": "<<A<<endl;
                 }else if(A>C && C>B || C<B && C>A){
-                    cout<<"case "<<i+1<<": "<<C<<endl;
+                    cout<<"Case "<<i+1<<": "<<C<<endl;
                 }
+            } else{
+                cout<<"Case "<<i+1<<": "<<"invalid"<<endl;
             }
         }
     }
